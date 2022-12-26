@@ -598,7 +598,7 @@ a:focus {
 
 
 /*---------------------------------------
-      BLOG            
+      BLOG/Agenda          
   -----------------------------------------*/
 
 .blog-header {
@@ -641,6 +641,42 @@ a:focus {
 
 .blog-sidebar h3 {
     font-size: 18px;
+}
+
+
+/**********Document**********/
+
+.doc-card {
+    background-color: #fff;
+    width: 13em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding-top: 1.5em;
+    padding-right: .5em;
+    margin: 0.9em;
+}
+
+.doc-card .icon {
+    display: flex;
+    justify-content: center;
+}
+
+.doc-card .icon img {
+    filter: invert(6%) sepia(63%) saturate(7410%) hue-rotate(351deg) brightness(139%) contrast(108%);
+    height: 8em;
+}
+
+.doc-card .info {
+    text-align: center;
+}
+
+.doc-card a {
+    color: #9b000a;
+}
+
+.down-icon {
+    filter: invert(6%) sepia(63%) saturate(7410%) hue-rotate(351deg) brightness(139%) contrast(108%);
+    margin-left: 6px;
 }
 
 
